@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+    <meta charset="UTF-8">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon.ico">
+    <title>StorMan</title>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Mono">
+
+    <link href="https://unpkg.com/material-components-web@4.0.0/dist/material-components-web.min.css" rel="stylesheet">
+    <link href="css/style-fixes.css" rel="stylesheet">
+    <link href="css/theme.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <script src="https://unpkg.com/material-components-web@4.0.0/dist/material-components-web.min.js"></script>
+    <script src="js/main.js"></script>
+</head>
+
+<body>
+    <header class="mdc-top-app-bar mdc-elevation--z2">
+        <div class="mdc-top-app-bar__row">
+            <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start">
+                <button class="material-icons mdc-top-app-bar__navigation-icon mdc-icon-button" aria-label="Open navigation menu">menu</button>
+                <span class="mdc-top-app-bar__title">StorMan</span>
+            </section>
+            <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-end" role="toolbar">
+                <button class="material-icons mdc-top-app-bar__action-item mdc-icon-button" aria-label="Search">search</button>
+                <button class="material-icons mdc-top-app-bar__action-item mdc-icon-button" aria-label="Options">more_vert</button>
+            </section>
+        </div>
+    </header>
+
+    <div class="content-main">
+
+        <div class="main-list">
+            <div class="container">
+                <div class="mdc-card card-element" style="display: none;">
+                    <div class="card-media-container">
+                        <div class="card-media"></div>
+                    </div>
+
+                    <div class="card-main-container">
+
+                        <div class="card-main-content">
+                            <div class="demo-card__title mdc-typography mdc-typography--headline6">
+                                Element 1
+                            </div>
+                        </div>
+
+                        <div class="mdc-card__actions">
+                            <div class="mdc-card__action-icons">
+                                <button class="mdc-icon-button mdc-card__action mdc-card__action--icon--unbounded" aria-pressed="false" aria-label="Add to favorites" title="Add to favorites">
+                                    <i class="material-icons mdc-icon-button__icon mdc-icon-button__icon--on">favorite</i>
+                                    <i class="material-icons mdc-icon-button__icon">favorite_border</i>
+                                </button>
+                                <button class="mdc-icon-button material-icons mdc-card__action mdc-card__action--icon--unbounded" title="Share" data-mdc-ripple-is-unbounded="true">share</button>
+                                <button class="mdc-icon-button material-icons mdc-card__action mdc-card__action--icon--unbounded" title="More options" data-mdc-ripple-is-unbounded="true">more_vert</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <ul class="mdc-list mdc-elevation--z2 mdc-list--two-line mdc-list--avatar-list">
+                    <li class="mdc-list-item" tabindex="0">
+                        <span class="mdc-list-item__graphic material-icons" aria-hidden="true">
+                            <div class="list-media"></div>
+                        </span>
+                        <span class="mdc-list-item__text">
+                            <span class="mdc-list-item__primary-text"> Element 1 </span>
+                            <span class="mdc-list-item__secondary-text"> 9. Jan 2018 </span>
+                        </span>
+                        <button class="material-icons mdc-list-item__meta mdc-icon-button" aria-hidden="true" aria-label="Options">more_vert</button>
+                    </li>
+                    <li class="mdc-list-divider" role="separator"></li>
+
+                    <li class="mdc-list-item" tabindex="0">
+                        <span class="mdc-list-item__graphic material-icons" aria-hidden="true">
+                            <div class="list-media"></div>
+                        </span>
+                        <span class="mdc-list-item__text">
+                            <span class="mdc-list-item__primary-text"> Element 2 </span>
+                            <span class="mdc-list-item__secondary-text"> 29. Jun 2020 </span>
+                        </span>
+                        <button class="material-icons mdc-list-item__meta mdc-icon-button" aria-hidden="true" aria-label="Options">more_vert</button>
+                    </li>
+                    <li class="mdc-list-divider" role="separator"></li>
+
+                    <li class="mdc-list-item" tabindex="0">
+                        <span class="mdc-list-item__graphic material-icons" aria-hidden="true">
+                            <div class="list-media"></div>
+                        </span>
+                        <span class="mdc-list-item__text">
+                            <span class="mdc-list-item__primary-text"> Element 3 </span>
+                            <span class="mdc-list-item__secondary-text"> none </span>
+                        </span>
+                        <button class="material-icons mdc-list-item__meta mdc-icon-button" aria-hidden="true" aria-label="Options">more_vert</button>
+                    </li>
+                    <li class="mdc-list-divider" role="separator"></li>
+
+                    <li class="mdc-list-item" tabindex="0">
+                        <span class="mdc-list-item__graphic material-icons" aria-hidden="true">
+                            <div class="list-media"></div>
+                        </span>
+                        <span class="mdc-list-item__text">
+                            <span class="mdc-list-item__primary-text"> Element 3 </span>
+                            <span class="mdc-list-item__secondary-text"> none </span>
+                        </span>
+                        <button class="material-icons mdc-list-item__meta mdc-icon-button" aria-hidden="true" aria-label="Options">more_vert</button>
+                    </li>
+                    <li class="mdc-list-divider" role="separator"></li>
+
+                    <li class="mdc-list-item" tabindex="0">
+                        <span class="mdc-list-item__graphic material-icons" aria-hidden="true">
+                            <div class="list-media"></div>
+                        </span>
+                        <span class="mdc-list-item__text">
+                            <span class="mdc-list-item__primary-text"> Element 3 </span>
+                            <span class="mdc-list-item__secondary-text"> none </span>
+                        </span>
+                        <button class="material-icons mdc-list-item__meta mdc-icon-button" aria-hidden="true" aria-label="Options">more_vert</button>
+                    </li>
+                    <li class="mdc-list-divider" role="separator"></li>
+
+                    <li class="mdc-list-item" tabindex="0">
+                        <span class="mdc-list-item__graphic material-icons" aria-hidden="true">
+                            <div class="list-media"></div>
+                        </span>
+                        <span class="mdc-list-item__text">
+                            <span class="mdc-list-item__primary-text"> Element 3 </span>
+                            <span class="mdc-list-item__secondary-text"> none </span>
+                        </span>
+                        <button class="material-icons mdc-list-item__meta mdc-icon-button" aria-hidden="true" aria-label="Options">more_vert</button>
+                    </li>
+                    <li class="mdc-list-divider" role="separator"></li>
+
+                    <li class="mdc-list-item" tabindex="0">
+                        <span class="mdc-list-item__graphic material-icons" aria-hidden="true">
+                            <div class="list-media"></div>
+                        </span>
+                        <span class="mdc-list-item__text">
+                            <span class="mdc-list-item__primary-text"> Element 3 </span>
+                            <span class="mdc-list-item__secondary-text"> none </span>
+                        </span>
+                        <button class="material-icons mdc-list-item__meta mdc-icon-button" aria-hidden="true" aria-label="Options">more_vert</button>
+                    </li>
+                    <li class="mdc-list-divider" role="separator"></li>
+
+                    <li class="mdc-list-item" tabindex="0">
+                        <span class="mdc-list-item__graphic material-icons" aria-hidden="true">
+                            <div class="list-media"></div>
+                        </span>
+                        <span class="mdc-list-item__text">
+                            <span class="mdc-list-item__primary-text"> Element 3 </span>
+                            <span class="mdc-list-item__secondary-text"> none </span>
+                        </span>
+                        <button class="material-icons mdc-list-item__meta mdc-icon-button" aria-hidden="true" aria-label="Options">more_vert</button>
+                    </li>
+                    <li class="mdc-list-divider" role="separator"></li>
+
+                    <li class="mdc-list-item" tabindex="0">
+                        <span class="mdc-list-item__graphic material-icons" aria-hidden="true">
+                            <div class="list-media"></div>
+                        </span>
+                        <span class="mdc-list-item__text">
+                            <span class="mdc-list-item__primary-text"> Element 3 </span>
+                            <span class="mdc-list-item__secondary-text"> none </span>
+                        </span>
+                        <button class="material-icons mdc-list-item__meta mdc-icon-button" aria-hidden="true" aria-label="Options">more_vert</button>
+                    </li>
+                    <li class="mdc-list-divider" role="separator"></li>
+
+                    <li class="mdc-list-item" tabindex="0">
+                        <span class="mdc-list-item__graphic material-icons" aria-hidden="true">
+                            <div class="list-media"></div>
+                        </span>
+                        <span class="mdc-list-item__text">
+                            <span class="mdc-list-item__primary-text"> Element 3 </span>
+                            <span class="mdc-list-item__secondary-text"> none </span>
+                        </span>
+                        <button class="material-icons mdc-list-item__meta mdc-icon-button" aria-hidden="true" aria-label="Options">more_vert</button>
+                    </li>
+                    <li class="mdc-list-divider" role="separator"></li>
+
+                    <li class="mdc-list-item" tabindex="0">
+                        <span class="mdc-list-item__graphic material-icons" aria-hidden="true">
+                            <div class="list-media"></div>
+                        </span>
+                        <span class="mdc-list-item__text">
+                            <span class="mdc-list-item__primary-text"> Element 3 </span>
+                            <span class="mdc-list-item__secondary-text"> none </span>
+                        </span>
+                        <button class="material-icons mdc-list-item__meta mdc-icon-button" aria-hidden="true" aria-label="Options">more_vert</button>
+                    </li>
+                    <li class="mdc-list-divider" role="separator"></li>
+
+                    <li class="mdc-list-item" tabindex="0">
+                        <span class="mdc-list-item__graphic material-icons" aria-hidden="true">
+                            <div class="list-media"></div>
+                        </span>
+                        <span class="mdc-list-item__text">
+                            <span class="mdc-list-item__primary-text"> Element 3 </span>
+                            <span class="mdc-list-item__secondary-text"> none </span>
+                        </span>
+                        <button class="material-icons mdc-list-item__meta mdc-icon-button" aria-hidden="true" aria-label="Options">more_vert</button>
+                    </li>
+                    <li class="mdc-list-divider" role="separator"></li>
+
+                    <li class="mdc-list-item" tabindex="0">
+                        <span class="mdc-list-item__graphic material-icons" aria-hidden="true">
+                            <div class="list-media"></div>
+                        </span>
+                        <span class="mdc-list-item__text">
+                            <span class="mdc-list-item__primary-text"> Element 3 </span>
+                            <span class="mdc-list-item__secondary-text"> none </span>
+                        </span>
+                        <button class="material-icons mdc-list-item__meta mdc-icon-button" aria-hidden="true" aria-label="Options">more_vert</button>
+                    </li>
+                    <li class="mdc-list-divider" role="separator"></li>
+
+                    <li class="mdc-list-item" tabindex="0">
+                        <span class="mdc-list-item__graphic material-icons" aria-hidden="true">
+                            <div class="list-media"></div>
+                        </span>
+                        <span class="mdc-list-item__text">
+                            <span class="mdc-list-item__primary-text"> Element 3 </span>
+                            <span class="mdc-list-item__secondary-text"> none </span>
+                        </span>
+                        <button class="material-icons mdc-list-item__meta mdc-icon-button" aria-hidden="true" aria-label="Options">more_vert</button>
+                    </li>
+                    <li class="mdc-list-divider" role="separator"></li>
+
+                    <li class="mdc-list-item" tabindex="0">
+                        <span class="mdc-list-item__graphic material-icons" aria-hidden="true">
+                            <div class="list-media"></div>
+                        </span>
+                        <span class="mdc-list-item__text">
+                            <span class="mdc-list-item__primary-text"> Element 3 </span>
+                            <span class="mdc-list-item__secondary-text"> none </span>
+                        </span>
+                        <button class="material-icons mdc-list-item__meta mdc-icon-button" aria-hidden="true" aria-label="Options">more_vert</button>
+                    </li>
+                    <li class="mdc-list-divider" role="separator"></li>
+
+                    <li class="mdc-list-item" tabindex="0">
+                        <span class="mdc-list-item__graphic material-icons" aria-hidden="true">
+                            <div class="list-media"></div>
+                        </span>
+                        <span class="mdc-list-item__text">
+                            <span class="mdc-list-item__primary-text"> Element 3 </span>
+                            <span class="mdc-list-item__secondary-text"> none </span>
+                        </span>
+                        <button class="material-icons mdc-list-item__meta mdc-icon-button" aria-hidden="true" aria-label="Options">more_vert</button>
+                    </li>
+                    <li class="mdc-list-divider" role="separator"></li>
+
+                    <li class="mdc-list-item" tabindex="0">
+                        <span class="mdc-list-item__graphic material-icons" aria-hidden="true">
+                            <div class="list-media"></div>
+                        </span>
+                        <span class="mdc-list-item__text">
+                            <span class="mdc-list-item__primary-text"> Element 3 </span>
+                            <span class="mdc-list-item__secondary-text"> none </span>
+                        </span>
+                        <button class="material-icons mdc-list-item__meta mdc-icon-button" aria-hidden="true" aria-label="Options">more_vert</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="sidebar-right">
+            <div class="container">
+
+                <div class="image-container">
+                    <img class="image-view" src="https://material-components.github.io/material-components-web-catalog/static/media/photos/3x2/2.jpg">
+                </div>
+
+                <div class="headline">
+                    <div class="mdc-typography--headline4">Element 1</div>
+                    <button class="material-icons mdc-icon-button" aria-label="Options">edit</button>
+                </div>
+
+                <div class="properties">
+                    <div class="mdc-typography--headline6 properties-headline">Eigenschaften</div>
+
+                    <div class="list">
+                        <div class="mdc-data-table" style="width: 100%;">
+                            <div class="mdc-data-table__table-container">
+                                <table class="mdc-data-table__table" aria-label="Properties">
+                                    <thead>
+                                        <tr class="mdc-data-table__header-row">
+                                            <th class="mdc-data-table__header-cell" role="columnheader" scope="col">
+                                                Name
+                                            </th>
+                                            <th class="mdc-data-table__header-cell" role="columnheader" scope="col">
+                                                Wert
+                                            </th>
+                                            <th class="mdc-data-table__header-cell" role="columnheader" scope="col">
+                                            </th>
+                                        </tr>
+                                    </thead>
+                                    <tbody class="mdc-data-table__content">
+                                        <tr data-row-id="u0" class="mdc-data-table__row">
+
+                                            <td class="mdc-data-table__cell" scope="row" id="u0">Eigenschaft 1 </td>
+                                            <td class="mdc-data-table__cell">42</td>
+                                            <td class="mdc-data-table__cell mdc-data-table__cell--checkbox">
+                                                <button class="material-icons mdc-icon-button" aria-label="Options">more_vert</button>
+                                            </td>
+                                        </tr>
+                                        <tr data-row-id="u1" class="mdc-data-table__row" aria-selected="true">
+                                            <td class="mdc-data-table__cell" scope="row" id="u1">Eigenschaft 2</td>
+                                            <td class="mdc-data-table__cell">Hello World</td>
+                                            <td class="mdc-data-table__cell mdc-data-table__cell--checkbox">
+                                                <button class="material-icons mdc-icon-button" aria-label="Options">more_vert</button>
+                                            </td>
+                                        </tr>
+                                        <tr data-row-id="u2" class="mdc-data-table__row" aria-selected="true">
+                                            <td class="mdc-data-table__cell" scope="row" id="u2">Foo</td>
+                                            <td class="mdc-data-table__cell">Bar</td>
+                                            <td class="mdc-data-table__cell mdc-data-table__cell--checkbox">
+                                                <button class="material-icons mdc-icon-button" aria-label="Options">more_vert</button>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tags">
+                    <div class="mdc-typography--headline6 properties-headline">Tags / Kategorien</div>
+
+
+                    <div class="mdc-chip-set" role="grid">
+                        <div class="mdc-chip" style="background-color: var(--mdc-theme-secondary);" role="row">
+                            <div class="mdc-chip__ripple"></div>
+                            <span role="gridcell">
+                                <span role="button" tabindex="0" class="mdc-chip__primary-action">
+                                    <span class="mdc-chip__text">Test123</span>
+                                </span>
+                            </span>
+                        </div>
+                        <div class="mdc-chip" style="background-color: var(--mdc-theme-primary);" role="row">
+                            <div class="mdc-chip__ripple"></div>
+                            <span role="gridcell">
+                                <span role="button" tabindex="-1" class="mdc-chip__primary-action">
+                                    <span class="mdc-chip__text">Hallo :)</span>
+                                </span>
+                            </span>
+                        </div>
+                        <div class="mdc-chip" role="row">
+                            <div class="mdc-chip__ripple"></div>
+                            <i class="material-icons mdc-chip__icon mdc-chip__icon--leading">add</i>
+                            <span role="gridcell">
+                                <span role="button" tabindex="0" class="mdc-chip__primary-action">
+                                    <span class="mdc-chip__text">Hinzufügen</span>
+                                </span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
