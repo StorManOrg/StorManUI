@@ -42,12 +42,26 @@ body {
     margin-bottom: 48px;
 }
 
+.location {
+    margin-bottom: 48px;
+}
+
+.location-headline {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .properties {
     margin-bottom: 48px;
 }
 
 .properties-headline {
     margin-bottom: 8px;
+}
+
+.tags {
+    margin-bottom: 48px;
 }
 
 .card-element {
