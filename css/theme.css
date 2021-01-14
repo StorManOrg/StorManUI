@@ -2,8 +2,8 @@
     background: var(--mdc-theme-background);
     height: 100%;
 
-    --mdc-theme-primary: #44b4a2;
-    --mdc-theme-secondary: #e0495f;
+    --mdc-theme-primary: #c8b9ff;
+    --mdc-theme-secondary: #c8b9ff;
 
     --mdc-theme-background: #eee;
     --mdc-theme-surface: #fff;
